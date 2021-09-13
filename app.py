@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
-import haslib
+#import haslib
 
 @app.route("/")
 def hello():
