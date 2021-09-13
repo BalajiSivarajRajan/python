@@ -4,6 +4,6 @@ import haslib
 
 @app.route("/")
 def hello():
-    print (hashlib.algorithms_available)
+    #print (hashlib.algorithms_available)
     return "Hello, World!!!"
    
