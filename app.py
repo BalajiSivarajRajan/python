@@ -1,8 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
+import haslib
 
 @app.route("/")
 def hello():
+    print (hashlib.algorithms_available)
     return "Hello, World!!!"
-    hs = hashlib.sha256(get_some_string().encode('utf-8')).hexdigest()
-    return hs
+   
